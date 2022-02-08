@@ -78,9 +78,9 @@ a:hover{
     <a href="personal.jsp">PERSONALITY</a>
     <a href="values.jsp">VALUES</a>
     <a href="hobby.jsp">HOBBY</a>
-    <a href="portfolio.jsp">PORTFOLIO</a>
+    <a href="portfolio.jsp">PROJECT</a>
   </div>
-<p class="s1">My Portfolio</p>
+<p class="s1">My PROJECT</p>
 
 <b>Team Project</b><br>
 <c>이 프로젝트는 재학시절 사물인터넷을 기반으로 한 음주운전 방지 프로젝트입니다.

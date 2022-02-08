@@ -82,7 +82,7 @@ c	{
     <a href="personal.jsp">PERSONALITY</a>
     <a href="values.jsp">VALUES</a>
     <a href="hobby.jsp">HOBBY</a>
-    <a href="portfolio.jsp">PORTFOLIO</a>
+    <a href="portfolio.jsp">PROJECT</a>
   </div>
   
   <p class="s1">My Hobby</p>
@@ -109,22 +109,16 @@ c	{
 <!-- 클래스명은 변경하면 안 됨 -->
 <div class="swiper-container">
 	<div class="swiper-wrapper">
-		<div class="swiper-slide"><img src="http://ktsmemo.cdn3.cafe24.com/p/0406.jpg"></div>
-		<div class="swiper-slide"><img src="http://ktsmemo.cdn3.cafe24.com/p/0179.jpg"></div>
-		<div class="swiper-slide"><img src="http://ktsmemo.cdn3.cafe24.com/p/0336.jpg"></div>
-		<div class="swiper-slide"><img src="http://oldmidi.cdn3.cafe24.com/p/0109.jpg"></div>
-		<div class="swiper-slide"><img src="http://ktsmemo.cdn3.cafe24.com/p/0026.jpg"></div>
-		<div class="swiper-slide"><img src="http://oldmidi.cdn3.cafe24.com/p/0030.jpg"></div>
-		<div class="swiper-slide"><img src="http://oldmidi.cdn3.cafe24.com/p/0208.jpg"></div>
-		<div class="swiper-slide"><img src="http://oldmidi.cdn3.cafe24.com/p/0064.jpg"></div>
-		<div class="swiper-slide"><img src="http://ktsmemo.cdn3.cafe24.com/p/0814.jpg"></div>
-		<div class="swiper-slide"><img src="http://ktsmemo.cdn3.cafe24.com/p/0344.jpg"></div>
-		<div class="swiper-slide"><img src="http://ktsmemo.cdn3.cafe24.com/p/0191.jpg"></div>
-		<div class="swiper-slide"><img src="http://oldmidi.cdn3.cafe24.com/p/0287.jpg"></div>
-		<div class="swiper-slide"><img src="http://ktsmemo.cdn3.cafe24.com/p/0220.jpg"></div>
-		<div class="swiper-slide"><img src="https://ktsmemo.cafe24.com/p/0623.jpg"></div>
-		<div class="swiper-slide"><img src="http://oldmidi.cdn3.cafe24.com/p/0665.jpg"></div>
-		<div class="swiper-slide" style="font-size:50pt;">- 끝 -</div>
+		<div class="swiper-slide"><img src="image/photo1.jpg"></div>
+		<div class="swiper-slide"><img src="image/photo2.jpg"></div>
+		<div class="swiper-slide"><img src="image/photo3.jpg"></div>
+		<div class="swiper-slide"><img src="image/photo4.jpg"></div>
+		<div class="swiper-slide"><img src="image/photo5.jpg"></div>
+		<div class="swiper-slide"><img src="image/photo6.jpg"></div>
+		<div class="swiper-slide"><img src="image/photo7.jpg"></div>
+		<div class="swiper-slide"><img src="image/photo8.jpg"></div>
+		<div class="swiper-slide"><img src="image/photo9.jpg"></div>
+		<div class="swiper-slide"><img src="image/photo10.jpg"></div>
 	</div>
 
 	<!-- 네비게이션 -->
