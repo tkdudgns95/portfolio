@@ -10,13 +10,35 @@
 <link rel="stylesheet" href="css/custom.css">
 <title>JSP 게시판 웹 사이트</title>
 </head>
+<style>
+
+#container{
+width: 3000px;
+  height: 3000px;
+
+}
+
+body {
+	
+	background-image: url("images/note.jpg");
+	 -webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	 -o-background-size: cover;
+	background-size:cover;
+	
+
+}
+
+</style>
 <body>
+
 <%
 String userID = null;
 if (session.getAttribute("userID") != null) {
 	userID = (String) session.getAttribute("userID");
 }
 %>
+
   <nav class="navbar navbar-default">
      <div class="navbar-header">
          <button type="button" class="navbar-toggle collapsed"
@@ -26,8 +48,9 @@ if (session.getAttribute("userID") != null) {
          <span class="icon-bar"></span>
          <span class="icon-bar"></span>
        </button>
-       <a class="navbar-brand" href="main.jsp">JSP 게시판 웹 사이트</a>
+       
    </div>
+   
    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
        <ul class="nav navbar-nav">
            <li class="active"><a href="main.jsp">메인</a></li>
@@ -66,7 +89,7 @@ if (session.getAttribute("userID") != null) {
       
        <%
          }
-       %>     	                             
+       %>               
    </div>
 	</nav>
 	
