@@ -9,109 +9,88 @@
 <link rel="stylesheet" href="css/bootstrap.css">
 <link rel="stylesheet" href="css/custom.css">
 <title>JSP 게시판 웹 사이트</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
 </head>
-<body>
-<%
-String userID = null;
-if (session.getAttribute("userID") != null) {
-	userID = (String) session.getAttribute("userID");
+<style>
+@import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+#menu a{
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 30px;
+  color: #F0FFFF;
+  text-decoration: none;
+  font-family: Helvetica,Arial,Sans-Serif;
 }
-%>
-  <nav class="navbar navbar-default">
-     <div class="navbar-header">
-         <button type="button" class="navbar-toggle collapsed"
-         data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-         aria-expanded="false">
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-       </button>
-       <a class="navbar-brand" href="main.jsp">JSP 게시판 웹 사이트</a>
-   </div>
-   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-       <ul class="nav navbar-nav">
-           <li class="active"><a href="main.jsp">메인</a></li>
-           <li><a href="bbs.jsp">게시판</a></li>
-       </ul>
-       <%
-       if(userID == null) {
-    	   
-       %>
-    	   <ul class="nav navbar-nav navbar-right">
-    	   <li class="dropdown">
-    	   <a href='#' class="dropdown-toggle"
-    	     data-toggle="dropdown" role="button" aria-haspopup="true"
-    	     aria-expanded="false">접속하기<span class="caret"></span></a>
-    	   <ul class="dropdown-menu">
-    	      <li><a href="login.jsp">로그인</a></li>
-    	      <li><a href="join.jsp">회원가입</a></li>
-    	   </ul>
-         </li>
-      </ul>
-       <%
-           } else {
-        	   
-       %>	   
-        	   <ul class="nav navbar-nav navbar-right">
-    	   <li class="dropdown">
-    	   <a href='#' class="dropdown-toggle"
-    	     data-toggle="dropdown" role="button" aria-haspopup="true"
-    	     aria-expanded="false">회원관리<span class="caret"></span></a>
-    	   <ul class="dropdown-menu">
-    	      <li><a href="logoutAction.jsp">로그아웃</a></li>
-    	      
-    	   </ul>
-         </li>
-      </ul>
-      
-       <%
-         }
-       %>     	                             
-   </div>
-	</nav>
+
+a {
+	color:white;
+	text-decoration:none;
+}
+a:hover{
+	color: rgba(255, 255, 255, 0.85);
+	box-shadow: rgba(30, 22, 54, 0.7) 0 0px
+	0px 40px inset;
+   }
+
+body {
 	
-    <div class="container">
-        <div class="jumbotron">
-            <div class="container">
-	           <h1>웹 사이트 소개</h1>
-	           <p>이 웹 사이트는 부트스트랩으로 만든 JSP 웹 사이트입니다. 최소한의 간단한 로직만을 이용해서 개발했습니다. 디자인 템플릿으로는 부트스트랩을 이용했습니다.</p>
-	           <p><a class="btn btn-primary btn-pull" href="#' role="button">자세히 알아보기</a></p>
-	</div>
+	background-image: url("images/note.jpg");
+	 -webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	 -o-background-size: cover;
+	background-size:cover;
+}
+
+p  {
+	font-family: 'Kaushan Script', cursive;
+	text-align:center;
+	color:#F0FFFF;
+	font-size:30px;	
+	}
+	
+c	{
+		font-family: 'Nanum Pen Script', cursive;
+		color:#F0FFFF;
+		font-size: 30px;
+	}
+	#wrap {
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+}
+footer {
+	width: 100%;
+	height: 110px; /* 내용물에 따라 알맞는 값 설정 */
+	bottom: 0px;
+	position: absolute;
+}
+</style>
+<body>
+<div id="menu">
+    <a href="main.jsp">Home</a>
+    <a href="bbs.jsp">Board</a>
+    <a href="logoutAction.jsp">Logout</a>
   </div>
- </div>
- 
-  <div class="container">
-     <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="item active">
-          <img src="images/image1.PNG">
-          </div>
-          <div class="item">
-          <img src="images/image2.PNG">
-          </div>
-          <div class="item">
-          <img src="images/image3.PNG">
-          </div>
-          <div class="item">
-          <img src="images/image4.JPG">
-          </div>
-        </div>
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left"></span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right"></span>
-        </a>
-     </div>  
-  </div>
-  
+  <p>Welcome!</p><br>
+  <c>환영합니다. 이 사이트는 상단의 board 탭을 통해 게시판으로 이동하여 게시글을 작성할 수 있습니다. <br>
+  게시글 10개 마다 다음 목록으로 넘어가며, 수정과 삭제가 가능합니다.<br>
+  수정과 삭제는 게시글을 작성한 회원정보에게만 권한을 부여합니다.
+  </c>
+  <div id='wrap'>
+    	<section>
+    	</section>
+<footer>         
+          <p>
+              <span>저자 :tkdudgns95</span><br/>
+              <span>이메일 :tkdudgns95@naver.com</span><br/>
+              <span>Copyright 2022.tkdudgns95.All Rights Reserved.</span>
+          </p>         
+      </footer>
+      </div>	   
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>    
 </body>
 </html>

@@ -109,16 +109,16 @@ c	{
 <!-- 클래스명은 변경하면 안 됨 -->
 <div class="swiper-container">
 	<div class="swiper-wrapper">
-		<div class="swiper-slide"><img src="image/photo1.jpg"></div>
-		<div class="swiper-slide"><img src="image/photo2.jpg"></div>
-		<div class="swiper-slide"><img src="image/photo3.jpg"></div>
-		<div class="swiper-slide"><img src="image/photo4.jpg"></div>
-		<div class="swiper-slide"><img src="image/photo5.jpg"></div>
-		<div class="swiper-slide"><img src="image/photo6.jpg"></div>
-		<div class="swiper-slide"><img src="image/photo7.jpg"></div>
-		<div class="swiper-slide"><img src="image/photo8.jpg"></div>
-		<div class="swiper-slide"><img src="image/photo9.jpg"></div>
-		<div class="swiper-slide"><img src="image/photo10.jpg"></div>
+		<div class="swiper-slide"><img src="image/photo1.jpg" width="400" height="350"></div>
+		<div class="swiper-slide"><img src="image/photo2.jpg" width="400" height="350"></div>
+		<div class="swiper-slide"><img src="image/photo3.jpg" width="400" height="350"></div>
+		<div class="swiper-slide"><img src="image/photo4.jpg" width="400" height="350"></div>
+		<div class="swiper-slide"><img src="image/photo5.jpg" width="400" height="350"></div>
+		<div class="swiper-slide"><img src="image/photo6.jpg" width="400" height="350"></div>
+		<div class="swiper-slide"><img src="image/photo7.jpg" width="400" height="350"></div>
+		<div class="swiper-slide"><img src="image/photo8.jpg" width="400" height="350"></div>
+		<div class="swiper-slide"><img src="image/photo9.jpg" width="400" height="350"></div>
+		<div class="swiper-slide"><img src="image/photo10.jpg" width="400" height="350"></div>
 	</div>
 
 	<!-- 네비게이션 -->

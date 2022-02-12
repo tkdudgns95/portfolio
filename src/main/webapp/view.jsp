@@ -12,7 +12,33 @@
 <link rel="stylesheet" href="css/custom.css">
 <title>JSP 게시판 웹 사이트</title>
 </head>
+<style>
+#menu a{
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 30px;
+  color: #000000;
+  text-decoration: none;
+  font-family: Helvetica,Arial,Sans-Serif;
+}
+
+a {
+	color:white;
+	text-decoration:none;
+}
+a:hover{
+	color: rgba(255, 255, 255, 0.85);
+	box-shadow: rgba(30, 22, 54, 0.7) 0 0px
+	0px 40px inset;
+   }
+</style>
 <body>
+<body>
+<div id="menu">
+    <a href="main.jsp">Home</a>
+    <a href="bbs.jsp">Board</a>
+    <a href="logoutAction.jsp">Logout</a>
+  </div>
 <%
 String userID = null;
 if (session.getAttribute("userID") != null) {
@@ -31,59 +57,6 @@ if (bbsID == 0) {
 }
 Bbs bbs = new BbsDAO().getBbs(bbsID);
 %>
-  <nav class="navbar navbar-default">
-     <div class="navbar-header">
-         <button type="button" class="navbar-toggle collapsed"
-         data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-         aria-expanded="false">
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-       </button>
-       <a class="navbar-brand" href="main.jsp">JSP 게시판 웹 사이트</a>
-   </div>
-   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-       <ul class="nav navbar-nav">
-           <li><a href="main.jsp">메인</a></li>
-           <li class="active"><a href="bbs.jsp">게시판</a></li>
-       </ul>
-       <%
-       if(userID == null) {
-    	   
-       %>
-    	   <ul class="nav navbar-nav navbar-right">
-    	   <li class="dropdown">
-    	   <a href='#' class="dropdown-toggle"
-    	     data-toggle="dropdown" role="button" aria-haspopup="true"
-    	     aria-expanded="false">접속하기<span class="caret"></span></a>
-    	   <ul class="dropdown-menu">
-    	      <li><a href="login.jsp">로그인</a></li>
-    	      <li><a href="join.jsp">회원가입</a></li>
-    	   </ul>
-         </li>
-      </ul>
-       <%
-           } else {
-        	   
-       %>	   
-        	   <ul class="nav navbar-nav navbar-right">
-    	   <li class="dropdown">
-    	   <a href='#' class="dropdown-toggle"
-    	     data-toggle="dropdown" role="button" aria-haspopup="true"
-    	     aria-expanded="false">회원관리<span class="caret"></span></a>
-    	   <ul class="dropdown-menu">
-    	      <li><a href="logoutAction.jsp">로그아웃</a></li>
-    	      
-    	   </ul>
-         </li>
-      </ul>
-      
-       <%
-         }
-       %>   
-         
-   </div>
-</nav>
 <div class="container">
    <div class="row">
      <table class="table table-striped" style="text-align: center; border: 1px solid #dddddd">
@@ -95,7 +68,7 @@ Bbs bbs = new BbsDAO().getBbs(bbsID);
        <tbody>
          <tr>
             <td style="width: 20%;">글 제목</td>
-            <td colspan="2"><%= bbs.getBbsTitle().replaceAll(" ","&nbsp;").replaceAll("<", "&lt;").replaceAll(">","&gt;").replaceAll("\n", "<br>") %></td> %></td>
+            <td colspan="2"><%= bbs.getBbsTitle().replaceAll(" ","&nbsp;").replaceAll("<", "&lt;").replaceAll(">","&gt;").replaceAll("\n", "<br>") %></td>
          </tr> 
          <tr>
             <td>작성자</td>
@@ -116,10 +89,10 @@ Bbs bbs = new BbsDAO().getBbs(bbsID);
             if(userID != null && userID.equals(bbs.getUserID())) {
       %>     	
             	<a href="update.jsp?bbsID=<%= bbsID %>" class="btn btn-primary">수정</a>
-            	<a onclick="return confirm('정말로 삭제하시겠습니까?')" href="deleteAction.jsp?bbsID=<%= bbsID %>" class="btn btn-primary">삭제</a>
+            	<a onclick="return confirm('정말로 삭제하시겠습니까?')" href="deleteAction.jsp?bbsID=<%= bbsID %>" class="btn btn-primary">삭제</a>         
       <%       	
-            }
-      %>                        
+           }
+      %>              
    </div>
 </div>
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script> 
