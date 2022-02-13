@@ -86,7 +86,7 @@ c	{
   </div>
   
   <p class="s1">My Hobby</p>
-  <a>Play Games!</a> <br>
+  <a>Play Games</a> <br>
   <img src="image/LOL.PNG" width="200" height="200">
   <img src="image/lostark.PNG" width="200" height="200">
   <img src="image/steam.PNG" width="200" height="200"> 
