@@ -9,7 +9,7 @@
 </head>
 <body>
     <script>
-         location.href = 'login.jsp';
+         location.href = 'newindex.jsp';
      </script>
 </body>
 </html>

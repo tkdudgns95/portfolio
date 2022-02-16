@@ -53,6 +53,7 @@
     	    	session.setAttribute("userID", user.getUserID());
     	    	PrintWriter script = response.getWriter();
     	    	script.println("<script>");
+    	    	script.println("alert('회원가입이 완료되었습니다.')");
     	    	script.println("location.href = 'login.jsp'");
     	    	script.println("</script>");
     	    }

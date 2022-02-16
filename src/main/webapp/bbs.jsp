@@ -13,6 +13,7 @@
 <link rel="stylesheet" href="css/custom.css">
 <title>JSP 게시판 웹 사이트</title>
 <style type="text/css">
+@import url(//fonts.googleapis.com/earlyaccess/nanumpenscript.css);
 #menu a{
   margin-left: 20px;
   margin-right: 20px;
@@ -30,6 +31,7 @@ a:hover{
 	box-shadow: rgba(30, 22, 54, 0.7) 0 0px
 	0px 40px inset;
    }
+   
 </style>
 </head>
 <body>

@@ -99,6 +99,6 @@ MQ-3 센서를 이용하여 운전자의 알코올 감지하고, 감지되면 LE
 삭제가 어떻게 이루어지는지 이해해 볼 수 있는 시간이었고,<br> 
 기본적인 게시판 구현을 할 수 있었기에 의미가 있었다고 생각합니다.<br> 
 서버연동은 tomcat 8.5버전을 사용하였고, 데이터베이스는 mysql 5.7 버전을 사용하였습니다.</c><br>
-<button id="btn_toggle" type="button" onclick="window.open('index.jsp')">보러가기</button>
+<button id="btn_toggle" type="button" onclick="window.open('login.jsp')">보러가기</button>
 </body>
 </html>
