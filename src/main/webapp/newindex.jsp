@@ -66,15 +66,15 @@ a:hover{
 <body style="background-color:#BBDEFB;">
 
 <div id="menu">
-    <a href="newindex.jsp">PROFILE</a>
-    <a href="personal.jsp">PERSONALITY</a>
-    <a href="values.jsp">VALUES</a>
-    <a href="hobby.jsp">HOBBY</a>
-    <a href="portfolio.jsp">PROJECT</a>
+    <a href="newindex.jsp">프로필</a>
+    <a href="personal.jsp">성격</a>
+    <a href="values.jsp">가치관</a>
+    <a href="hobby.jsp">취미</a>
+    <a href="portfolio.jsp">프로젝트</a>
   </div>
   
   <div style="text-align:center">
-  <c>My Introduce Page!</c>
+  <c>자기소개 페이지 입니다!</c>
   </div>
   
 <div class="list">

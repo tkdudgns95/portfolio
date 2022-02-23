@@ -78,33 +78,33 @@ c	{
 
 <body style="background-color:lightblue;">
 <div id="menu">
-    <a href="newindex.jsp">PROFILE</a>
-    <a href="personal.jsp">PERSONALITY</a>
-    <a href="values.jsp">VALUES</a>
-    <a href="hobby.jsp">HOBBY</a>
-    <a href="portfolio.jsp">PROJECT</a>
+    <a href="newindex.jsp">프로필</a>
+    <a href="personal.jsp">성격</a>
+    <a href="values.jsp">가치관</a>
+    <a href="hobby.jsp">취미</a>
+    <a href="portfolio.jsp">프로젝트</a>
   </div>
   
-  <p class="s1">My Hobby</p>
-  <a>Play Games</a> <br>
+  <p class="s1">저의 취미는</p>
+  <a>게임하기</a> <br>
   <img src="image/LOL.PNG" width="200" height="200">
   <img src="image/lostark.PNG" width="200" height="200">
   <img src="image/steam.PNG" width="200" height="200"> 
   <img src="image/battlenet.PNG" width="200" height="200"><br><br>
   
   
-  <a>Watch Movies</a> <br>
+  <a>영화보기</a> <br>
   <img src="image/netflix.PNG" width="200" height="200">
   <img src="image/watcha.PNG" width="200" height="200">
   <img src="image/disney.PNG" width="200" height="200">
   <img src="image/tving.PNG" width="200" height="200"> <br><br>
   
-  <a>Do Exercise</a> <br>
+  <a>운동하기</a> <br>
   <img src="image/walk.PNG" width="300" height="300">
   <img src="image/bike.PNG" width="300" height="300">
   <br><br>
   
-  <a>Go Travel</a> <br> 
+  <a>여행가기</a> <br> 
    
 <!-- 클래스명은 변경하면 안 됨 -->
 <div class="swiper-container">

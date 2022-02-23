@@ -66,13 +66,13 @@ b   {
 </style>
 <body>
 <div id="menu">
-    <a href="newindex.jsp">PROFILE</a>
-    <a href="personal.jsp">PERSONALITY</a>
-    <a href="values.jsp">VALUES</a>
-    <a href="hobby.jsp">HOBBY</a>
-    <a href="portfolio.jsp">PROJECT</a>
+    <a href="newindex.jsp">프로필</a>
+    <a href="personal.jsp">성격</a>
+    <a href="values.jsp">가치관</a>
+    <a href="hobby.jsp">취미</a>
+    <a href="portfolio.jsp">프로젝트</a>
   </div>
-<p class="s1">My Values</p>
+<p class="s1">저의 가치관은</p>
 
 <div class="value1">
 	<b>신뢰</b> <br>

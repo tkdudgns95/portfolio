@@ -72,22 +72,22 @@
 <body style="background-color:orange;">
 
 <div id="menu">
-    <a href="newindex.jsp">PROFILE</a>
-    <a href="personal.jsp">PERSONALITY</a>
-    <a href="values.jsp">VALUES</a>
-    <a href="hobby.jsp">HOBBY</a>
-    <a href="portfolio.jsp">PROJECT</a>
+    <a href="newindex.jsp">프로필</a>
+    <a href="personal.jsp">성격</a>
+    <a href="values.jsp">가치관</a>
+    <a href="hobby.jsp">취미</a>
+    <a href="portfolio.jsp">프로젝트</a>
   </div>
   
-<p class="s1">My Personality</p>
+<p class="s1">저의 성격은</p>
 
-<b>Advantage</b> <br>
+<b>장점</b> <br>
 <c>대부분의 상황에서 솔직한 편입니다. 그에 따라 사람간의 신뢰가 두텁다고 생각합니다.<br> 
 남에게 피해를 끼치는 걸 싫어 하다보니 그런 상황을 만들지 않으려 노력합니다. 착하다는 말을 많이 듣습니다.<br>
 매사에 진지한 편입니다. 남의 고민을 잘 들어줍니다.
 </c> <br>
 
-<b>Disadvantage</b> <br>
+<b>단점</b> <br>
 <c>생각이 많다보니 걱정도 많은 편입니다. 그에 따라 스스로 힘들어했던 적이 있었습니다.<br> 
 낯을 가리는 편이라 조용한 편입니다. 대체로 수동적입니다.<br>
 </c> <br>
