@@ -70,9 +70,9 @@ footer {
 </style>
 <body>
 <div id="menu">
-    <a href="main.jsp">Home</a>
-    <a href="bbs.jsp">Board</a>
-    <a href="logoutAction.jsp">Logout</a>
+    <a href="main.jsp">홈</a>
+    <a href="bbs.jsp">게시판</a>
+    <a href="logoutAction.jsp">로그아웃</a>
   </div>
   <p>Welcome!</p><br>
   <c>환영합니다. 이 사이트는 상단의 board 탭을 통해 게시판으로 이동하여 게시글을 작성할 수 있습니다. <br>

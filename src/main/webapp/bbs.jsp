@@ -36,9 +36,9 @@ a:hover{
 </head>
 <body>
 <div id="menu">
-    <a href="main.jsp">Home</a>
-    <a href="bbs.jsp">Board</a>
-    <a href="logoutAction.jsp">Logout</a>
+    <a href="main.jsp">홈</a>
+    <a href="bbs.jsp">게시판</a>
+    <a href="logoutAction.jsp">로그아웃</a>
   </div>
 <%
 String userID = null;
