@@ -36,7 +36,7 @@ a:hover{
 	    font-family: "Arial Black", sans-serif;
         font-size: 36px;
         font-weight: bold;
-        color: #B24040;
+        color: #ffffff;
    }
    
    c	{

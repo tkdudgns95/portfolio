@@ -56,12 +56,7 @@ c	{
 	}
 
       
-.swiper-container {
-	height:420px; 
-	border:5px solid silver;
-	border-radius:7px;
-	box-shadow:0 0 20px #ccc inset;
-}
+
 .swiper-slide {
 	text-align:center;
 	display:flex; /* 내용을 중앙정렬 하기위해 flex 사용 */
@@ -109,16 +104,16 @@ c	{
 <!-- 클래스명은 변경하면 안 됨 -->
 <div class="swiper-container">
 	<div class="swiper-wrapper">
-		<div class="swiper-slide"><img src="image/photo1.jpg" width="400" height="350"></div>
-		<div class="swiper-slide"><img src="image/photo2.jpg" width="400" height="350"></div>
-		<div class="swiper-slide"><img src="image/photo3.jpg" width="400" height="350"></div>
-		<div class="swiper-slide"><img src="image/photo4.jpg" width="400" height="350"></div>
-		<div class="swiper-slide"><img src="image/photo5.jpg" width="400" height="350"></div>
-		<div class="swiper-slide"><img src="image/photo6.jpg" width="400" height="350"></div>
-		<div class="swiper-slide"><img src="image/photo7.jpg" width="400" height="350"></div>
-		<div class="swiper-slide"><img src="image/photo8.jpg" width="400" height="350"></div>
-		<div class="swiper-slide"><img src="image/photo9.jpg" width="400" height="350"></div>
-		<div class="swiper-slide"><img src="image/photo10.jpg" width="400" height="350"></div>
+		<div class="swiper-slide"><img src="image/photo1.jpg" width="800" height="600"></div>
+		<div class="swiper-slide"><img src="image/photo2.jpg" width="800" height="600"></div>
+		<div class="swiper-slide"><img src="image/photo3.jpg" width="800" height="600"></div>
+		<div class="swiper-slide"><img src="image/photo4.jpg" width="800" height="600"></div>
+		<div class="swiper-slide"><img src="image/photo5.jpg" width="800" height="600"></div>
+		<div class="swiper-slide"><img src="image/photo6.jpg" width="800" height="600"></div>
+		<div class="swiper-slide"><img src="image/photo7.jpg" width="800" height="600"></div>
+		<div class="swiper-slide"><img src="image/photo8.jpg" width="800" height="600"></div>
+		<div class="swiper-slide"><img src="image/photo9.jpg" width="800" height="600"></div>
+		<div class="swiper-slide"><img src="image/photo10.jpg" width="800" height="600"></div>
 	</div>
 
 	<!-- 네비게이션 -->
