@@ -61,6 +61,7 @@ p  {
      </div>
   <div class="col-lg-4"></div>
 </div>
+<p>회원가입을 건너뛰고 로그인 하고 싶으시면<br> 아이디 111 비밀번호 111로 로그인 하십시오</p>
 
   
 <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
